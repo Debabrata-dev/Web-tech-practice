@@ -1,0 +1,13 @@
+here we know how to create grid in html and css
+
+Display-grid
+    grid-template-rows: 100px 100px;
+    grid-template-rows: repeat(2,100px);
+    grid-template-colums: 100px 100px 100px;
+    grid-template-colums: repeat(3,100px);
+     grid-column-start: 1; 
+    grid-column-end: 4; 
+     grid-row-start: 1; 
+    grid-row-end: 4; 
+
+Total webpage 3000fr
