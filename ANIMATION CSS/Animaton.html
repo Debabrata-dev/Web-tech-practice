@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .jp{
+            height: 100px;
+            width: 100px;
+            border: 10px solid black;
+            background-color: beige;
+            border-bottom: 10px solid gold;
+            border-radius: 12px;
+            animation-name: load;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            /* animation-direction: alternate; */
+            /* animation-direction: alternate-reverse; */
+            /* animation-direction: reverse; */
+            animation-direction: normal;
+            margin: 80px;
+        }
+  @keyframes load{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);  
+    }
+  }
+.resize{
+    border:1px solid darkblue;
+    height: 100px;
+    width: 100px;
+    background-color: darkblue;
+    /* border-bottom: ; */
+    margin: 100px;
+    animation-name: box;
+    animation-duration: 3s;
+    /* animation-direction: alternate; */
+    /* animation-direction: reverse; */
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+@keyframes box{
+    from{
+ transform: scale(1);
+
+    }
+    to{
+transform: scale(2);
+    }
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="jp"></div>
+    <div class="resize"></div>
+</body>
+</html>
