@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+    align-items: center;
+    height: 60px;
+    background-color: gainsboro;
+}
+.search>input{
+    height: 30px;
+    width: 550px;
+    border-radius: 5px;
+    padding:0px 30px;
+   border:1px solid gray;
+}
+.search>img{
+    position: relative;
+    top: 5px;
+    left: 30px;
+    height: 20px;
+}
+.account select{
+    border: none;
+    background-color: inherit;
+    width: 100px;
+
+}
+
+.account>button{
+    background-color: crimson;
+    color: azure;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    padding: 5px 10px;
+}
+
+nav{
+    display: flex;
+    height: 40px;
+    padding: 0 40px;
+    justify-content: space-between;
+    background-color: rgb(182, 182, 182);
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    margin: 0px 5px;
+}
