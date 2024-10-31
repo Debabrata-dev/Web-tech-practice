@@ -1,0 +1,44 @@
+IMAGE TAG-
+It is use to add a image in your webpage in html .
+Their are 4 propeties of image tag 1-alt, 2-src ,3-width, 4-height
+
+NAVIGATION IN HTML-
+In  html navigate one page to another page we use hyper link with help of another tag.
+a standes for anchor tag .
+Anchore tag has two properties 1-href,2-target
+target self is use to open new page in the same tab .
+target black is use to open the new page different page .
+
+Audio-
+Audio tage multimedia double tag that use in html to add mp3 file in the webpage audi ta has 2 properties src,controls
+
+video-
+Video tage is multimedia ta that is use to add a mp4 file in your webpage it has 7properties
+1-src 2-controls 3-height 4-width 5-loop 6-autoplay 7-muted
+
+Iframe tag-
+1-src 2-frameborded 3-height 4-width 5-name
+
+LIST TAG-
+It is a structral represention of colletion of data 1-order list 2-Unorderlist 3-Defination
+
+ul tag-it is know as ulorderlist
+<ul>
+<li>
+<li>
+</ul>
+
+ol is satands for orderlsit
+<ol>
+<li>
+<li>
+</ol>
+
+Defination standes for defination list
+<dl>
+<dt></dt>
+<dd></dd>
+</dl>
+
+MARQUE TAG:-7 properties
+<marque> tag is htmmlused to scroll the content inside a webpage propetites hight,width,direction,behaviour,scrollamount,scrolldelay,loop
