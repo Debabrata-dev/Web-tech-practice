@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+    align-items: center;
+    height: 60px;
+    background-color: black;
+}
+.search>input{
+    height: 30px;
+    width: 550px;
+    border-radius: 5px;
+    padding:0px 30px;
+   border:1px solid gray;
+}
+.search>img{
+    position: relative;
+    top: 5px;
+    left: 30px;
+    height: 20px;
+}
