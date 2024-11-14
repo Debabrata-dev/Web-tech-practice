@@ -1,0 +1,40 @@
+*{
+    background-color: #e2dddd;
+   
+    
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(210, 234, 226);
+    /* border-style: solid;
+    border-width: 2px;
+    border-color: brown; */
+    border-top: solid black 2px;
+    /* border:solid black 3px; */
+    border-radius: 2px;
+    width: 330px;
+    height: 60px;
+    margin-left: 620px;
+}
+.firstPara{
+    padding: 20px;
+    width: 330px;
+    border: solid black 2px;
+    background-color: antiquewhite;
+    margin-left: 120px;
+}
+.SecondPara{
+    padding: 20px;
+    width: 330px;
+    border-bottom: solid black 2px;
+    background-color: yellowgreen;
+    margin-left: 920px;
+}
+.thirdPara{
+    margin-left: 430px;
+    padding: 20px;
+    width: 330px;
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+    background-color: yellow;
+}
