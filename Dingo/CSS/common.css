@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Geist+Mono:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;900&display=swap');
+@import'./color.css';
+
+*{
+  margin: 0px;
+  padding: 0px;  
+  font-family: 'Bodoni Moda',cursive;
+}
+
+body{
+background-color:var(--light-brown);
+/* background: linear-gradient(to right,#041308,#0b3317); */
+min-height: 100vh;
+position: relative;
+padding-bottom: 5rem !important;
+}
+section{
+    color: aliceblue;
+}
+nav{
+    background-color: var(--light);
+    
+}
+
+nav .Title{
+    padding: 0.75rem;
+    padding-left: 0px;
+    color: var(--orange);
+    text-decoration: none;
+    display: inline-block;
+}
+nav .logo{
+ height: 1.75rem;
+ margin-left: 0.75rem;
+}
+nav form{
+    display: inline;
+    float: right;
+    padding-top: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+nav .search{
+    font-family: 'Bodoni Moda',cursive;
+    padding: 0.25rem 0.75rem;
+   
+}
+
+nav.search:focus{
+    outline: none !important;
+    border: 10px solid var();
+}
+
+.heading{
+    text-align: center;
+    margin: 1.75rem;
+}
+.Pipe{
+    text-decoration: none;
+    font-weight: 800;
+}
+footer{
+    position: absolute;
+    bottom: 0px;
+    background-color: var(--light);
+    width: calc(100% - 1.5rem);
+    padding: 0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
