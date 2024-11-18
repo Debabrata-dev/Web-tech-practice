@@ -1,0 +1,4 @@
+1-inline,inlineblock,block
+POSTION-RELATIVE-it is doing by the current window 
+POSTION-ABOSULTE- A gap is not mantained in position ABOSULTE .
+position sticky(fixed in a prent),fixed
