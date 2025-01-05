@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: antiquewhite;
+    height: 80px;
+   
+    
+}
+.My-div{
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-around;
+    margin-left: 410px;
+    width: 520px;
+}
